@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import './index.css'
 
 const el = document.getElementById('root')
 const tag = <strong>Olá react!</strong>
