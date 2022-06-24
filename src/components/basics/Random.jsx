@@ -1,8 +1,13 @@
 import React from "react"
 
 export default (p) => {
-    var min = Math.ceil(p.min);
-    var max = Math.floor(p.max);
-    var res = Math.floor(Math.random() * (max - min)) + min
-    return <p>{res}</p> 
+    const {min, max} = p
+    const res = parseInt(Math.random() * (max - min))
+    return(
+        <>
+            <p>Número mínimo: {min}</p>
+            <p>Número máximo: {max}</p>
+            <p>Sorteado: {res}</p>
+        </>
+    ) 
 }

@@ -11,7 +11,10 @@ export default () => (
         <Random
             min={0}
             max={100}
-        />
+        /><Random
+        min={0}
+        max={2}
+    />
         <Fragmento/>
         <ComParametro
             titulo="Situação do Aluno"
