@@ -1,18 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import Comp from './components/basics/Primeiro'
 import './index.css'
 
 const el = document.getElementById('root')
-const tag = <strong>Olá react!</strong>
 
 ReactDOM.render(
     <div>
-        <strong>Olá React!</strong>
+        <Comp></Comp>
     </div>, el //* el == referencia da posição da renderização
 )
-
-// ReactDOM.render( 
-//     <div>
-//         {tag}
-//     </div>, el
-// )
