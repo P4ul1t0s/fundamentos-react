@@ -11,15 +11,15 @@ export default () => (
     <div className="App">
         <h1>Fundamentos do React</h1>
         <div className="Cards">
-            <Card titulo="#04 - Aleatório">
+            <Card titulo="#04 - Aleatório" color="#FA6900">
                 <Random min={1} max={60}/>
             </Card>
 
-            <Card titulo="#03 - Fragmento">
+            <Card titulo="#03 - Fragmento" color="#E94C6F">
                 <Fragmento/>
             </Card>
 
-            <Card titulo="#02 - Com parametro">
+            <Card titulo="#02 - Com parametro" color="#E8B71A">
                 <ComParametro
                     titulo="Situação do Aluno"
                     aluno="Pedro"
@@ -27,7 +27,7 @@ export default () => (
                 />
             </Card>
             
-            <Card titulo="#01 - Primeiro Componente">
+            <Card titulo="#01 - Primeiro Componente" color="#588C73">
                 <Primeiro/>
             </Card>
         </div>
