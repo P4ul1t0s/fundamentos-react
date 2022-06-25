@@ -1,0 +1,15 @@
+export default [
+    {id: 1, nome: 'Doritos', preco: 21.50},
+    {id: 2, nome: 'Leite', preco: 3.66},
+    {id: 3, nome: 'Farinha', preco: 6.89},
+    {id: 4, nome: 'Suco', preco: 0.99},
+    {id: 5, nome: 'Vinho', preco: 55.00},
+    {id: 6, nome: 'Batata', preco: 3.45},
+    {id: 7, nome: 'Carne', preco: 25.53},
+    {id: 8, nome: 'Óleo', preco: 4.00},
+    {id: 9, nome: 'Nuggets', preco: 6.85},
+    {id: 10, nome: 'Queijo', preco: 12.80},
+    {id: 11, nome: 'Miojo', preco: 1.90},
+    {id: 12, nome: 'Sal', preco: 2.00},
+    {id: 13, nome: 'Bolo', preco: 45.00},
+]

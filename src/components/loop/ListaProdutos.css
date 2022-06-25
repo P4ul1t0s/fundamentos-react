@@ -1,0 +1,21 @@
+table{
+    border-radius: 5px;
+    width: 100%;
+}
+
+table, td{
+    border: 2px solid #AAAF23;
+}
+
+tr{
+    height: 3em;
+}
+
+td{
+    width: 33%;
+}
+
+#cabecalho{
+    background-color: #AAAF23;
+    color: #fff;
+}
