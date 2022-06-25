@@ -5,12 +5,17 @@ import ComParametro from './components/basics/ComParametro'
 import Fragmento from './components/basics/Fragmento'
 import Random from './components/basics/Random'
 import Card from './components/layout/Card'
+import Famila from './components/basics/Famila'
 import './index.css'
 
 export default () => (
     <div className="App">
         <h1>Fundamentos do React</h1>
         <div className="Cards">
+            <Card titulo="#05 - Componente com Filhos" color="#00C8F8">
+                <Famila sobrenome="Ferreira"/>
+            </Card>
+
             <Card titulo="#04 - Aleatório" color="#FA6900">
                 <Random min={1} max={60}/>
             </Card>
