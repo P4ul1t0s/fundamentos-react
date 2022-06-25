@@ -2,13 +2,13 @@ import React from 'react'
 import './ListaProdutos.css'
 import produtos from '../../data/produtos'
 
-export default props => {
+export default () => {
     const lista = produtos.map((prod) => {
         return(
-            <tr key={prod.id}>
+            <tr key={prod.id} className={prod.id % 2 === 0 ? 'par' : 'impar'}>
                 <td>{prod.id}</td>
-                <td>{prod.nome}</td>
-                <td>R${prod.preco}</td>
+                <td className="nome">{prod.nome}</td>
+                <td className="preco">R${prod.preco.toFixed(2).replace('.', ',')}</td>
             </tr>
         )
     })

@@ -11,8 +11,21 @@ tr{
     height: 3em;
 }
 
-td{
-    width: 33%;
+.nome{
+    width: 70%;
+}
+
+.preco{
+    text-align: left;
+    padding-left: 1em;
+}
+
+.impar{
+    background-color: #b6b86d;
+}
+
+.par{
+    background-color: #d9db9a;
 }
 
 #cabecalho{
