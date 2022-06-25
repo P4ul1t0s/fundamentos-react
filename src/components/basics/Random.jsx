@@ -5,9 +5,11 @@ export default (p) => {
     const res = parseInt(Math.random() * (max - min))
     return(
         <>
-            <p>Número mínimo: {min}</p>
-            <p>Número máximo: {max}</p>
-            <p>Sorteado: {res}</p>
+            <strong>
+                <p>Número mínimo: {min}</p>
+                <p>Número máximo: {max}</p>
+                <p>Sorteado: {res}</p>
+            </strong>
         </>
     ) 
 }
