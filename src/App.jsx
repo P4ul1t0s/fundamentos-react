@@ -1,4 +1,5 @@
 import './App.css'
+import './index.css'
 import React from 'react'
 import Primeiro from './components/basics/Primeiro'
 import ComParametro from './components/basics/ComParametro'
@@ -9,12 +10,18 @@ import Famila from './components/basics/Famila'
 import FamiliaMembro from './components/basics/FamiliaMembro'
 import ListaAlunos from './components/loop/ListaAlunos'
 import ListaProdutos from './components/loop/ListaProdutos'
-import './index.css'
+import ParOuImpar from './components/conditional/ParOuImpar'
 
 export default () => (
     <div className="App">
         <h1>Fundamentos do React</h1>
         <div className="Cards">
+            <Card titulo="#08 - Randerização Condicional" color="#983395">
+                <ParOuImpar
+                    numero={20}
+                />
+            </Card>
+
             <Card titulo="#07 - Tabela com Repetição" color="#AAAF23">
                 <ListaProdutos/>
             </Card>

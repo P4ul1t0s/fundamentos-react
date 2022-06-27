@@ -1,5 +1,4 @@
 import React, {cloneElement, Children} from 'react'
-import FamiliaMembro from './FamiliaMembro'
 
 export default (props) => {
     return (
