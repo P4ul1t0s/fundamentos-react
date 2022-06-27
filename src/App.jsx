@@ -12,11 +12,16 @@ import ListaAlunos from './components/loop/ListaAlunos'
 import ListaProdutos from './components/loop/ListaProdutos'
 import ParOuImpar from './components/conditional/ParOuImpar'
 import UsuarioInfo from './components/conditional/UsuarioInfo'
+import DiretaPai from './components/comunication/DiretaPai'
 
 export default () => (
     <div className="App">
         <h1>Fundamentos do React</h1>
         <div className="Cards">
+            <Card titulo="#09 - Comunicação Direta" color="#59323C">
+                <DiretaPai/>
+            </Card>
+
             <Card titulo="#08 - Randerização Condicional" color="#983395">
                 <ParOuImpar
                     numero={21}
