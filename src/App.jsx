@@ -11,6 +11,7 @@ import FamiliaMembro from './components/basics/FamiliaMembro'
 import ListaAlunos from './components/loop/ListaAlunos'
 import ListaProdutos from './components/loop/ListaProdutos'
 import ParOuImpar from './components/conditional/ParOuImpar'
+import UsuarioInfo from './components/conditional/UsuarioInfo'
 
 export default () => (
     <div className="App">
@@ -19,6 +20,12 @@ export default () => (
             <Card titulo="#08 - Randerização Condicional" color="#983395">
                 <ParOuImpar
                     numero={20}
+                />
+                <UsuarioInfo
+                    usuario={{nome: 'Fernando'}}
+                />
+                <UsuarioInfo
+                    usuario={{email: 'Fernando@gmail.com'}}
                 />
             </Card>
 
