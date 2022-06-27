@@ -5,11 +5,7 @@ export default (p) => {
 
     return(
         <div>
-            {isPar ? 
-                <span>Par</span> 
-            : 
-                <span>Impar</span> 
-            }
+            {p.numero} é um número {isPar ?  <strong> Par</strong> : <strong> Ímpar</strong> }
         </div>
     )
 }
