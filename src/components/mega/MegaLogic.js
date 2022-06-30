@@ -13,19 +13,4 @@ function verificaSortiados(sorteio){
     new_num
 }
 
-// function verificaSortiados(sorteio, new_num){
-//     console.log("Lista recebida: " + sorteio)
-//     console.log("Número recebido: " + new_num)
-//     sorteio.forEach(num => {
-//         console.log("Número atual: " + num)
-//         console.log("Novo número: " + new_num)
-//         if(num === new_num){
-//             console.log(num + " é igual a " + new_num)
-//             return false
-//         }
-//     })
-//     return true
-// }
-
 console.log(sortear(6))
-
